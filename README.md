@@ -5,6 +5,17 @@
 
 ---
 
+## 🚀 Live Production Deployment
+
+| Component | Production Cloud Host | Live Endpoint |
+|---|---|---|
+| **Frontend Web App** | **Vercel** | **[https://client-omega-rouge-20.vercel.app](https://client-omega-rouge-20.vercel.app)** |
+| **Backend API & Verification Gateway** | **Render** | **[https://ekchhatra-backend.onrender.com](https://ekchhatra-backend.onrender.com)** |
+| **Interactive API Documentation** | **Render Swagger** | **[https://ekchhatra-backend.onrender.com/docs](https://ekchhatra-backend.onrender.com/docs)** |
+| **GitHub Repository** | **GitHub** | **[https://github.com/yusufsheikh2716/EkChhatra-ST-Portal](https://github.com/yusufsheikh2716/EkChhatra-ST-Portal)** |
+
+---
+
 ## 🌟 Executive Summary
 
 **EkChhatra** is a unified digital scholarship gateway built specifically for Scheduled Tribe (ST) students across India. It integrates 5 premier Ministry of Tribal Affairs (MoTA) and central schemes into a single dashboard:
