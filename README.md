@@ -1,18 +1,27 @@
 # 🏹 EkChhatra (एक छात्र) — Unified ST Scholarship Portal
 
-> **Ministry of Tribal Affairs (MoTA) • Central Sector & Centrally Sponsored Schemes**  
-> *One App. Every Scheme. Every Student.*
+<div align="center">
+
+[![Live Demo](https://img.shields.io/badge/▶_LIVE_DEMO-Open_EkChhatra_App-success?style=for-the-badge&logo=vercel&logoColor=white&color=10b981)](https://client-omega-rouge-20.vercel.app)
+[![API Backend](https://img.shields.io/badge/Backend_API-Render_Live-informational?style=for-the-badge&logo=fastapi&logoColor=white&color=0f3460)](https://ekchhatra-backend.onrender.com)
+[![Swagger Docs](https://img.shields.io/badge/Swagger_Docs-API_Endpoints-orange?style=for-the-badge&logo=swagger&logoColor=white&color=f5a623)](https://ekchhatra-backend.onrender.com/docs)
+[![PWA Ready](https://img.shields.io/badge/PWA-Mobile_Ready-blueviolet?style=for-the-badge&logo=pwa&logoColor=white)](https://client-omega-rouge-20.vercel.app)
+
+### 🌐 **Live Web App**: [https://client-omega-rouge-20.vercel.app](https://client-omega-rouge-20.vercel.app)
+*Compatible with every device — Android, iOS, Tablet, Laptop, and Desktop. Includes 1-Click Demo Login.*
+
+</div>
 
 ---
 
 ## 🚀 Live Production Deployment
 
-| Component | Production Cloud Host | Live Endpoint |
+| Component | Cloud Platform | Live Public Endpoint |
 |---|---|---|
-| **Frontend Web App** | **Vercel** | **[https://client-omega-rouge-20.vercel.app](https://client-omega-rouge-20.vercel.app)** |
-| **Backend API & Verification Gateway** | **Render** | **[https://ekchhatra-backend.onrender.com](https://ekchhatra-backend.onrender.com)** |
-| **Interactive API Documentation** | **Render Swagger** | **[https://ekchhatra-backend.onrender.com/docs](https://ekchhatra-backend.onrender.com/docs)** |
-| **GitHub Repository** | **GitHub** | **[https://github.com/yusufsheikh2716/EkChhatra-ST-Portal](https://github.com/yusufsheikh2716/EkChhatra-ST-Portal)** |
+| 📱 **Frontend Web App** | **Vercel** | **[https://client-omega-rouge-20.vercel.app](https://client-omega-rouge-20.vercel.app)** |
+| ⚙️ **Backend API Gateway** | **Render** | **[https://ekchhatra-backend.onrender.com](https://ekchhatra-backend.onrender.com)** |
+| 📖 **Interactive API Documentation** | **Render Swagger** | **[https://ekchhatra-backend.onrender.com/docs](https://ekchhatra-backend.onrender.com/docs)** |
+| 🐙 **GitHub Repository** | **GitHub** | **[https://github.com/yusufsheikh2716/EkChhatra-ST-Portal](https://github.com/yusufsheikh2716/EkChhatra-ST-Portal)** |
 
 ---
 
@@ -130,16 +139,25 @@ All schemes provide direct redirection to official portals (`target="_blank" rel
 ## 📊 Application Verification Workflow (7 Stages)
 
 ```mermaid
-graph TD
-    A[1. Submitted] --> B[2. Institute Verified]
-    B --> C[3. District Verified]
-    C --> D[4. State Verified]
-    D --> E[5. Sanctioned]
-    E --> F[6. DBT Disbursed]
-    B -.-> R[Action Required / Rejected]
+flowchart TD
+    A["1. Submitted"] --> B["2. Institute Verified"]
+    B --> C["3. District Verified"]
+    C --> D["4. State Verified"]
+    D --> E["5. Sanctioned"]
+    E --> F["6. DBT Disbursed"]
+    B -.-> R["Action Required / Rejected"]
     C -.-> R
     D -.-> R
 ```
+
+| Stage | Verification Authority | Objective |
+| :--- | :--- | :--- |
+| **1. Submitted** | Student (e-Sign) | Application registered with verified Aadhaar e-KYC |
+| **2. Institute Verified** | School / College Nodal Officer | Enrolment, fee structure, bonafide & marksheet checked |
+| **3. District Verified** | District Welfare Officer (DWO) | ST Caste Certificate verified against State Tribal Registry |
+| **4. State Verified** | State Directorate of Tribal Welfare | State quota & income eligibility scrutiny |
+| **5. Sanctioned** | Ministry of Tribal Affairs (MoTA) | Central financial sanction order generated |
+| **6. DBT Disbursed** | PFMS / NPCI Aadhaar Bridge | Direct scholarship amount credited into seeded bank account |
 
 ---
 
