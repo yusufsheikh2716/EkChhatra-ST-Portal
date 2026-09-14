@@ -1,0 +1,16 @@
+{
+  "short_name": "EkChhatra",
+  "name": "EkChhatra — Unified ST Scholarship Portal",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏹</text></svg>",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0e111a",
+  "theme_color": "#1a1a2e",
+  "display": "standalone",
+  "orientation": "portrait"
+}
